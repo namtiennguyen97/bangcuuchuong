@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bang cuu chuong</title>
+</head>
+<body>
+
+
+<script>
+    let tinhtoan = "<table border='1' width='400' cellspacing='0' cellpadding='6'>"
+    let i;
+    for (i=0; i<11; i++) {
+        tinhtoan = tinhtoan + "<tr>";
+for (j =0; j<11; j++){
+    tinhtoan = tinhtoan +"<td>"+j +"x"+i +"="+ j*i+"</td>";
+}
+    }
+    tinhtoan = tinhtoan+ "</table>";
+document.write(tinhtoan);
+</script>
+</body>
+</html>
